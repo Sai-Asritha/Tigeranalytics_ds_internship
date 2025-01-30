@@ -1,0 +1,5 @@
+words=(str(input("Enter the words seperated by space")).split(" "))
+words_without_duplicates=set(words)
+res=list(words_without_duplicates)
+res.sort()
+print(res)
